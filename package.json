@@ -1,0 +1,25 @@
+{
+  "name": "historical-character-count",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "zx main.js"
+  },
+  "dependencies": {
+    "@suin/mdast-character-count": "^1.0.0",
+    "mdast-util-from-markdown": "^0.8.5",
+    "mdast-util-gfm": "^0.1.2",
+    "micromark-extension-gfm": "^0.3.3",
+    "zx": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.3"
+  }
+}
